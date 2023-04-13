@@ -1,0 +1,53 @@
+{
+    "alloc": [
+      {
+        "addr": "7777777777777777777777777777777777777777777777777774MSJUVU",
+        "comment": "RewardsPool",
+        "state": {
+          "algo": 125000000000000,
+          "onl": 2
+        }
+      },
+      {
+        "addr": "A7NMWS3NT3IUDMLVO26ULGXGIIOUQ3ND2TXSER6EBGRZNOBOUIQXHIBGDE",
+        "comment": "FeeSink",
+        "state": {
+          "algo": 100000,
+          "onl": 2
+        }
+      },
+      {
+        "addr": "DLZWFDTZJ2YBH2XO5LPSPUMRWGWY7EUIZFL7RIEO7QYMKE72MKM7AOVV24",
+        "comment": "Wallet1",
+        "state": {
+          "algo": 4000000000000000,
+          "onl": 1,
+          "sel": "OD21o5ZpfFe1m3GXyANWuSrh+O0ZAXErxBMJ2XQrv9c=",
+          "stprf": "q84ERwSUuzfUN6uUDKk3FhaKela8T8Mm061K7BeF5NRq6zydOcJpWeBK3a+WCM6yH2BcUBMCF6bDzcVX89h9hA==",
+          "vote": "jnkUF+trC0SDRYkW14U5a3QNGVntqZE2LuXqFXcCGEU=",
+          "voteKD": 10000,
+          "voteLst": 300000
+        }
+      },
+      {
+        "addr": "PNWOET7LLOWMBMLE4KOCELCX6X3D3Q4H2Q4QJASYIEOF7YIPPQBG3YQ5YI",
+        "comment": "pp1",
+        "state": {
+          "algo": 50000000000000
+        }
+      },
+      {
+        "addr": "F5FALDSUFYO5LQU4OQY2HPZTXSUPRHUAERZ7IDG5QCBC76AOHEPK2VUJ34",
+        "comment": "pp2",
+        "state": {
+          "algo": 50000000000000
+        }
+      }
+    ],
+    "fees": "A7NMWS3NT3IUDMLVO26ULGXGIIOUQ3ND2TXSER6EBGRZNOBOUIQXHIBGDE",
+    "id": "v1",
+    "network": "simulation_network",
+    "proto": "https://github.com/algorandfoundation/specs/tree/44fa607d6051730f5264526bf3c108d51f0eadb6",
+    "rwd": "7777777777777777777777777777777777777777777777777774MSJUVU"
+  }
+  

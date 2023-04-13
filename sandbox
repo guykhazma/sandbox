@@ -471,8 +471,13 @@ sandbox () {
         statusline "Starting sandbox for: $1"
         NEW_CONFIG="$1"
       fi
-      CONFIG_FILE="$SANDBOX_DIR/config.$NEW_CONFIG"
-
+      
+      if [ -f "$NEW_CONFIG" ]; then
+        CONFIG_FILE="$NEW_CONFIG"
+      else
+        CONFIG_FILE="$SANDBOX_DIR/config.$NEW_CONFIG"
+      fi
+      
       # Verify config exists
       if [ ! -f "$CONFIG_FILE" ]; then
         SANDBOX_CONFIG_OPTIONS=$(ls "$SANDBOX_DIR"/config.* | sed 's/^.*config\./ /'| paste -sd',' -)
